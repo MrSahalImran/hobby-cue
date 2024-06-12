@@ -58,7 +58,7 @@ const Form = () => {
             and <span className="text-black font-medium">Privacy Policy</span>.
           </p>
         )}
-        <CustomButton sign={sign} textSize="text-lg" />
+        <CustomButton sign={sign} />
       </div>
     </section>
   );
