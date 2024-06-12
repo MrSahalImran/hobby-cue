@@ -30,20 +30,8 @@ const Form = () => {
       </div>
 
       <div className="flex flex-col gap-4 my-4">
-        <CustomButton
-          img="/assets/google.svg"
-          text="Google"
-          imgWidth={20}
-          imgHeight={20}
-          textSize="text-lg"
-        />
-        <CustomButton
-          img="/assets/facebook.svg"
-          text="Facebook"
-          imgWidth={20}
-          imgHeight={20}
-          textSize="text-lg"
-        />
+        <CustomButton img="/assets/google.svg" text="Google" />
+        <CustomButton img="/assets/facebook.svg" text="Facebook" />
       </div>
 
       <div className="flex items-center justify-center mb-4">
